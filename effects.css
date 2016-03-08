@@ -1,0 +1,20 @@
+/*
+   New Perspectives on HTML and CSS
+   Tutorial 8
+   Tutorial Case
+
+   Special Effects style sheet
+   Author: Juozas Kripas
+   Date:   3/8/2016
+
+   Filename:         effects.css
+   Supporting Files: borderimg.png
+
+*/
+
+/*Heading Text Style*/
+section#main h1{
+    color: rgb(90,127,0);
+    text-shadow: black 1px 1px 0px, rgba(90,127,0,0.7)
+        5px 5px 10px;
+}
