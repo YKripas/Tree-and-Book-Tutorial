@@ -15,4 +15,21 @@
 /* Styles to be used with mobile devices */
 
 
+/*Hide page elements that will not be displayed*/
+header h1, header nav, section nav.vertical, footer{
+    display: none;
+}
 
+/*Header  Styles*/
+header{
+    background: rgb(18, 15, 12) url(tblogo_sm.png) center
+        center no-repeat;
+    
+    -o-background-size:contain;
+    -moz-background-size:contain;
+    -webkit-background-size:contain;
+    background-size:contain;
+    
+    height: 50px;
+    width: 100%;
+}
