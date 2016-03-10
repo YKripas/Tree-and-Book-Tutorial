@@ -65,11 +65,15 @@ article{                                            /*GRADIENT FOR THE MAIN PHOT
     background: linear-gradient(black, rgb(51,101,51) 20%, white 80%);
 }
 /*Border image style*/
-article img{
+article img{                                    /*BORDER IMAGE STYLE*/
     border-width: 10px;
     
     -o-border-image:url(borderimg.png) 50 repeat;
     -moz-border-image:url(borderimg.png) 50 repeat;
     -webkit-border-image:url(borderimg.png) 50 repeat;
     border-image:url(borderimg.png) 50 repeat;
+}
+/*Styles for semi-transparent images*/
+figure#photo4, figure#photo5{
+    opacity: 0.7;
 }
