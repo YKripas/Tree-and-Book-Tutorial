@@ -64,3 +64,12 @@ article{                                            /*GRADIENT FOR THE MAIN PHOT
     background: -webkit-linear-gradient(black, rgb(51,101,51) 20%, white 80%);
     background: linear-gradient(black, rgb(51,101,51) 20%, white 80%);
 }
+/*Border image style*/
+article img{
+    border-width: 10px;
+    
+    -o-border-image:url(borderimg.png) 50 repeat;
+    -moz-border-image:url(borderimg.png) 50 repeat;
+    -webkit-border-image:url(borderimg.png) 50 repeat;
+    border-image:url(borderimg.png) 50 repeat;
+}
