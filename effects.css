@@ -13,8 +13,18 @@
 */
 
 /*Heading Text Style*/
-section#main h1{
+section#main h1{                                            /*TEXT-SHADOWS*/
     color: rgb(90,127,0);
     text-shadow: black 1px 1px 0px, rgba(90,127,0,0.7)
         5px 5px 10px;
+}
+/*Box shadow styles*/
+figure img{
+    -moz-border-radius:25px;                    /*ROUNDED CORNERS FOR FIGURE IMG*/
+    -webkit-border-radius:25px;
+    border-radius: 25px;
+    
+    -moz-box-shadow: rgba(0,0,0,0.6) 10px 10px 15px;    /*SHADOWS FOR FIGURE IMG*/
+    -webkit-box-shadow: rgba(0,0,0,0.6) 10px 10px 15px;
+    box-shadow: rgba(0,0,0,0.6) 10px 10px 15px;
 }
