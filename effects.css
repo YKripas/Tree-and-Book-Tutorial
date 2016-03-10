@@ -34,3 +34,24 @@ section#main {                                          /*BORDER SHADOW FOR ENTI
     -webkit-box-shadow: inset rgba(0,0,0,0.3) -5px -5px 10px;
     box-shadow: inset rgba(0,0,0,0.3) -5px -5px 10px;
 }
+/*Drop shadow for the table*/                           /*SHADOW FOR THE TABLE*/
+section#main table{
+    -moz-box-shadow: black 5px 5px 5px;
+    -webkit-box-shadow: black 5px 5px 5px;
+    box-shadow: black 5px 5px 5px;
+}
+/*Rotate Styles*/                                   /*ROTATING PICS*/
+figure#photo4{                                      /*BOTTOM LEFT PIC*/
+    -o-transform: rotate(-30deg);
+    -moz-transform: rotate(-30deg);
+    -webkit-transform: rotate(-30deg);
+    -ms-transform: rotate(-30deg);
+    transform: rotate(-30deg);
+}
+figure#photo5{
+    -o-transform: rotate(30deg);
+    -moz-transform: rotate(30deg);
+    -webkit-transform: rotate(30deg);
+    -ms-transform: rotate(30deg);
+    transform: rotate(30deg);
+}
