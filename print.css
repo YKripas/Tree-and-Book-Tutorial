@@ -40,3 +40,19 @@ h1{
     margin: 0in auto;
     width: 4in;
 }
+/*Styles for the figure boxes*/
+figure{
+    display: block;
+    text-align: center;
+    page-break-after: always;
+    page-break-inside: avoid;
+}
+figure img{
+    width: 5in;
+}
+figure figcaption{
+    font-size: 20pt;
+}
+figure:last-of-type{
+    page-break-after: avoid;
+}
