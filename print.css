@@ -14,8 +14,17 @@
 
 /* Styles to be used for print displays */
 
-
+@page{
+    size: 8.5in 11in portrait;
+    margin: 0.5in;
+}
 /*Hide page elements that will not be printed*/
 header, nav, footer{
     display: none;
+}
+/*Setting the page breaks in the document*/
+article{
+    display: block;
+    page-break-after: always;
+    page-break-inside: avoid;
 }
